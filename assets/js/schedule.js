@@ -2,7 +2,8 @@ require("bootstrap");
 const createEl = require("./domMethods");
 const { createLoremIpsum, dateConverter } = require("./helpers");
 
-if (window.location.href.indexOf("schedule") > -1) {
+// if (window.location.href.indexOf("schedule") > -1) {
+    $(document).ready( function() {
 
     const date = new Date();
     const d = date.getDate();
@@ -83,8 +84,8 @@ if (window.location.href.indexOf("schedule") > -1) {
     },
     ]
 
-    // const pageEl = document.querySelector("#page");
-    $(document).ready( function() {
+    const pageEl = document.querySelector("#page");
+   
     function createCards(events) {
       const cards = events.map((event) => (
           createEl("div", {class: "card-body clickable", onClick: () => onEventClick(event)}, 
@@ -120,5 +121,5 @@ if (window.location.href.indexOf("schedule") > -1) {
     pageEl.appendChild(containerEl1);
     pageEl.appendChild(containerEl2);
     pageEl.appendChild(containerEl3);
-})
-  }
+});
+//   }

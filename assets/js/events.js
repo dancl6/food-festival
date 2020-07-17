@@ -2,15 +2,16 @@ require("bootstrap");
 const createEl = require("./domMethods");
 const createLoremIpsum = require("./helpers");
 
-  if (window.location.href.indexOf("event") > -1) {
+//   if (window.location.href.indexOf("event") > -1) {
+    $(document).ready( function() {
     const currentEvent = JSON.parse(localStorage.getItem("currentEvent")) || {
         title: "Title Placeholder",
         subtitle: "",
         description: ""
     };
 
-    // const pageEl = document.querySelector("#page");
-    $(document).ready( function() {
+    const pageEl = document.querySelector("#page");
+
     const containerEl = createEl("div", {class: "container"},
       createEl("div", {class: "card mb-3"}, 
         createEl("img", {class: "card-img-top", style: "width: 5px", src: currentEvent.image || "https://via.placeholder.com/350x150"}),
@@ -25,5 +26,5 @@ const createLoremIpsum = require("./helpers");
     )
 
     pageEl.appendChild(containerEl)
-})
-  }
+});
+//   }

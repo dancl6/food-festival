@@ -18,7 +18,7 @@ module.exports = {
     module: {
         rules: [
           {
-            test: /\.jpg$/,
+            test: /\.jpg$/i,
             use: [
               {
                 loader: 'file-loader',
@@ -28,7 +28,8 @@ module.exports = {
                   },
                   publicPath: function(url) {
                     return url.replace('../', '/assets/');
-                  }
+                  },
+                  esModule: false,
                 }
               },
               {
