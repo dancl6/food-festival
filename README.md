@@ -12,6 +12,7 @@ A website for a food festival event that shows the event schedule and ticket pur
 * [Badges](#badges)
 * [Description](#description)
 * [Installation](#installation)
+* [Deployment](#deployment)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
@@ -23,8 +24,7 @@ A website for a food festival event that shows the event schedule and ticket pur
 Deploy static site on GitHub.
 
 ## Deployment
-
-[Deployed App]("https://dancl6.github.io/food-festival/")
+[Deployed App](https://dancl6.github.io/food-festival/ "Deployed App")
 
 ## Usage 
 
