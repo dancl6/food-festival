@@ -24,7 +24,7 @@ Deploy static site on GitHub.
 
 ## Deployment
 
-[Deployed App](URL "https://dancl6.github.io/food-festival/")
+[Deployed App]("https://dancl6.github.io/food-festival/")
 
 ## Usage 
 
