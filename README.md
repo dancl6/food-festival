@@ -30,7 +30,7 @@ Deploy static site on Github.
 
 ## Usage 
 
-node app.js
+N/A
 
 ## License
 
