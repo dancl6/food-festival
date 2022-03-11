@@ -6,13 +6,13 @@
 
 ## Description
 
-A website for a food festival event that shows the event schedule and ticket purchase options. Uses the technologies, webpack for allowing offline functionality, bootstrap and jquery.
+A website built for a food festival event, describing the menu and ticket prices.  Uses the technologies webpack, bootstrap and jquery.
 
 ## Table of Contents
 * [Badges](#badges)
 * [Description](#description)
 * [Installation](#installation)
-* [Deployment](#deployment)
+* [Deployment](#deployed)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
@@ -21,14 +21,16 @@ A website for a food festival event that shows the event schedule and ticket pur
 
 ## Installation
 
-Deploy static site on GitHub.
+Deploy static site on Github.
 
 ## Deployment
-[Deployed App](https://dancl6.github.io/food-festival/ "Deployed App")
+
+
+[Deployed App](https://dancl6.github.io/food-festival/)
 
 ## Usage 
 
-For viewing only.
+node app.js
 
 ## License
 
@@ -44,6 +46,6 @@ N/A
 
 ## Questions
 
-[User Git Hub Link](https://github.com/https://github.com/dancl6/food-festival/  "Git Hub Link")
+[User Git Hub Link](https://github.com/https://github.com/dancl6/food-festival/ )
 
 User Email: danielclyons@yahoo.com
